@@ -16,6 +16,7 @@
 
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
 
 android {
     compileSdkVersion 30
@@ -45,4 +46,5 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.0-rc1'
     implementation 'com.jakewharton.timber:timber:4.7.1'
+    implementation "androidx.lifecycle:lifecycle-common-java8:2.3.1"
 }
